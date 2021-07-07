@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+  align-items: center;
+  height: 100vh;
+}
+.razorpay-embed-btn1 {
+  align-self: center;
+}
+.btn {
+  margin-left: 40px;
+  background-color: #392396;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 0px rgba(39, 39, 39, 0.3);
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
